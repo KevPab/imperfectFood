@@ -1,0 +1,25 @@
+form .field.valid input{
+    border-color: green; 
+  }
+  
+  form .field.error input{  
+    border-color: red;
+  }
+  
+  form .field.valid .icon{
+    color: #5372F0;
+  }
+  
+  form .field .error-txt{
+    color: #dc3545;
+    text-align: left;
+    margin-top: 5px;
+  }
+  
+  form .field .error{
+    display: none;
+  }
+  
+  form .field.error .error{
+    display: block;
+  };
